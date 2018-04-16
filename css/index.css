@@ -1,0 +1,377 @@
+body,
+p,
+dl,
+dd,
+blockquote,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+ul,
+ol,
+li,
+hr,
+legend,
+fieldset,
+textarea,
+img,
+form {
+	margin: 0;
+	padding: 0
+}
+
+img {
+	border: none;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nav {
+	width: 900px;
+	margin: 0 auto;
+	color: white;
+	font-weight: bold;
+	background: black;
+	height: 55px;
+	padding-left: 100px;
+}
+
+.nav li {
+	list-style: none;
+	padding: 2px 0px 0 40px;
+	float: left;
+	line-height: 50px;
+	height: 53px;
+	width: 100px;
+	border-radius: 0 70px 0 70px;
+	color: white;
+}
+
+.nav a {
+	color: white;
+}
+
+.nav li:hover {
+	background-color: #D87093;
+}
+
+#container {
+	overflow: hidden;
+	width: 1000px;
+	height: 578px;
+	position: relative;
+}
+
+#list {
+	width: 4000px;
+	height: 578px;
+	position: absolute;
+}
+
+#list li {
+	list-style: none;
+	float: left;
+}
+
+#list img {
+	width: 1000px;
+	height: 578px;
+	display: block;
+}
+
+#buttons {
+	position: absolute;
+	height: 10px;
+	width: 60px;
+	z-index: 2;
+	bottom: 20px;
+	left: 500px;
+}
+
+#buttons span {
+	cursor: pointer;
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-right: 8px;
+	background: #333;
+	border: 1px solid #fff;
+}
+
+#buttons .on {
+	background: orangered;
+}
+
+.arrow {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 240px;
+	line-height: 39px;
+	text-align: center;
+	cursor: pointer;
+	display: none;
+	font-size: 36px;
+	font-weight: bold;
+	z-index: 2;
+	background-color: RGBA(0, 0, 0, .3);
+	color: #fff;
+}
+
+.arrow:hover {
+	background-color: RGBA(0, 0, 0, .7);
+}
+
+#prev {
+	left: 20px;
+}
+
+#next {
+	right: 20px;
+}
+
+#container:hover .arrow {
+	display: block;
+}
+
+.menu {
+	background: #F5FFFA;
+	width: 1000px;
+	height: 700px;
+	padding-bottom: 80px;
+	padding-top: 7px;
+}
+
+.product {
+	position: absolute;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.center {
+	border-bottom: 1px solid #C0C0C0;
+	list-style: none;
+}
+
+.center .total {
+	background: #696969;
+	color: white;
+	font-size: 20px;
+	height: 30px;
+	padding: 10px 0 10px 17px;
+	font-weight: bold;
+	border-radius: 5px 5px 0 0;
+}
+
+.piece {
+	background: #C0C0C0;
+	color: black;
+	line-height: 40px;
+	padding-left: 25px;
+}
+
+.piece a {
+	color: black;
+}
+
+.center .piece:hover {
+	background: white;
+}
+
+.contact {
+	margin-top: 15px;
+}
+
+#relate {
+	background: #696969;
+	color: white;
+	font-size: 20px;
+	height: 30px;
+	padding: 10px 0 10px 17px;
+	font-weight: bold;
+	border-radius: 5px 5px 0 0;
+}
+
+.details {
+	padding-left: 10px;
+	line-height: 30px;
+	background: #C0C0C0;
+	width: 190px;
+	height: 160px;
+}
+
+.purpose {
+	margin-left: 5px;
+	position: absolute;
+	left: 210px;
+	top: 0;
+	width: 380px;
+	height: 300px;
+	overflow: hidden;
+	float: left;
+}
+
+.introduce {
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+	height: 28px;
+	background: #CD5C5C;
+}
+
+.content {
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.company {
+	margin-left: 5px;
+	position: absolute;
+	left: 600px;
+	width: 390px;
+	top: 0;
+}
+
+#box {
+	margin: 10px 10px 30px 25px;
+	width: 340px;
+	height: 230px;
+	overflow: hidden;
+}
+
+#box li {
+	padding-bottom: 13px;
+}
+
+#box li a {
+	color: black;
+}
+
+#box li a:hover {
+	color: red;
+}
+
+#box ul li span {
+	float: right;
+}
+
+.new {
+	position: absolute;
+	top: 300px;
+	left: 213px;
+	width: 783px;
+}
+
+.logo {
+	width: 180px;
+	height: 200px;
+	float: left;
+	margin: 10px 15px 0 0;
+}
+
+.logo img {
+	width: 180px;
+	height: 130px;
+	margin-bottom: 15px;
+}
+
+.public {
+	position: absolute;
+	width: 783px;
+	left: 210px;
+	top: 0;
+}
+
+.public-nav {
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+	height: 28px;
+	background: #CD5C5C;
+}
+
+.public-nav span {
+	float: right;
+}
+
+.aritical {
+	padding: 10px;
+	line-height: 30px;
+}
+
+.con3 {
+	margin-left: 15px;
+	list-style: circle;
+}
+
+.con3 span {
+	float: right;
+}
+
+.con3 a {
+	color: black;
+}
+
+.con3 a:hover {
+	color: red;
+}
+
+.con3 li {
+	margin-bottom: 4px;
+	border-bottom: 2px dashed #ccc;
+}
+
+.td1 {
+	padding: 10px 20px 20px 20px;
+}
+
+.td2 {
+	width: 350px;
+}
+
+.td3 {
+	width: 100px;
+}
+
+#inputCode {
+	float: left;
+	width: 100px;
+	height: 30px;
+	font-size: 17px;
+	padding-left: 5px;
+}
+
+.code {
+	letter-spacing: 3px;
+	color: black;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 19px;
+	line-height: 30px;
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ccc;
+	background: #ccffcc;
+	margin-right: 10px;
+}
+
+#contact {
+	padding: 10px 0 0 10px;
+	font-size: 25px;
+	line-height: 40px;
+}

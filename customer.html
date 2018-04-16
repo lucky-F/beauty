@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>美妆网站</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body background="img/bj.png" onload="createCode()">
+		<div class="main">
+			<!--头部-->
+			<ul class="nav">
+				<li class="active">
+					<a href="index.html">网站首页</a>
+				</li>
+				<li>
+					<a href="about.html">关于我们</a>
+				</li>
+				<li>
+					<a href="news.html">新闻资讯</a>
+				</li>
+				<li>
+					<a href="product.html">产品中心</a>
+				</li>
+				<li>
+					<a href="customer.html">客户反馈</a>
+				</li>
+				<li>
+					<a href="contact.html">联系我们</a>
+				</li>
+			</ul>
+
+			<!--轮播图-->
+			<div id="container">
+				<ul id="list">
+					<li><img src="img/1.jpg" alt="1" /></li>
+					<li><img src="img/2.jpg" alt="2" /></li>
+					<li><img src="img/3.jpg" alt="3" /></li>
+				</ul>
+				<div id="buttons" class="buttons">
+					<span index="1" class="on"></span>
+					<span index="2"></span>
+					<span index="3"></span>
+				</div>
+
+				<a href="javascript:;" id="prev" class="arrow">&lt</a>
+				<a href="javascript:;" id="next" class="arrow">&gt</a>
+			</div>
+
+			<div class="menu">
+				<div class="product">
+					<ul class="center">
+						<li class="total">产品中心</li>
+						<li class="piece">
+							<a href="">可修改产品分类一</a>
+						</li>
+						<li class="piece">
+							<a href="">可修改产品分类二</a>
+						</li>
+						<li class="piece">
+							<a href="">可修改产品分类三</a>
+						</li>
+						<li class="piece">
+							<a href="">可修改产品分类四</a>
+						</li>
+					</ul>
+
+					<div class="contact">
+						<div id="relate">联系方式</div>
+						<div class="details">
+							<b>YY有限公司</b><br/> 手机：123456789<br /> QQ :6666688888 <br /> 联系人：张先生 <br /> 北京市
+						</div>
+					</div>
+
+					<div class="public">
+						<div class="public-nav">
+							客户反馈
+							<span><a href="index.html">当前位置：首页></a><a href="customer.html">客户反馈</a></span>
+						</div>
+						<form action="" method="post">
+							<table cellspacing="" cellpadding="">
+								<tr>
+									<td class="td1">您的姓名</td>
+									<td><input type="text" value="" class="td2" /></td>
+								</tr>
+								<tr>
+									<td class="td1">手机号码</td>
+									<td><input type="text" value="" class="td2" /></td>
+								</tr>
+								<tr>
+									<td class="td1">E-mail</td>
+									<td><input type="text" value="" class="td2" /></td>
+								</tr>
+								<tr>
+									<td class="td1">QQ/MSN</td>
+									<td><input type="text" value="" class="td2" /></td>
+								</tr>
+								<tr>
+									<td class="td1">留言内容</td>
+									<td><textarea rows="8" cols="48"></textarea></tr>
+								<tr>
+									<td class="td1">验证码：</td>
+									<td>
+										<div class="code" id="checkCode" onclick="createCode()"></div>
+										<input type="text" class="td3" id="inputCode">
+									</td>
+								</tr>
+								<tr>
+									<td class="td1"></td>
+									<td><input type="button" value="确认无误，提交" onclick="validateCode();"></td>
+								</tr>
+							</table>
+						</form>
+
+					</div>
+				</div>
+
+				<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+				<script type="text/javascript" src="js/common.js"></script>
+				<script type="text/javascript" src="js/validate.js"></script>
+	</body>
+
+</html>
